@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    user-select: none;
+    box-sizing: border-box;
+}
+.app {
+    height: 100vh;
+    background:linear-gradient(#001e4d,#abcdef);
+    display: flex;
+    justify-content: center;
+}
+.app2 {
+    background-color:#fff;
+    position: relative;
+    top: 7rem;
+    width: 45vw;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+    height: 30rem;
+
+}
+.app h1 {
+    font-size: 25px;
+    color: #001e4d;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+    margin-top: 2rem;
+}
+.quiz{
+    padding: 20px 0;
+}
+.quiz h2 {
+    font-size: 20px;
+    color:#001e4d;
+    font-weight: 2000;
+    margin-bottom: 1.5rem;
+}
+.btn {
+    background: #fff;
+    color: #222;
+    font-weight: 600;
+    width: 95%;
+    border: 1px solid#222;
+    padding: 10px;
+    margin:10px;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 2ms;
+}
+.btn:hover{
+    background-color: #222;
+    color: #fff;
+    opacity: 0.8999;
+}
+.nxt_btn {
+    background-color: #001e4d;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    padding: 10px;
+    margin: 20px auto 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    left: -14px;
+    display: none;
+
+}
